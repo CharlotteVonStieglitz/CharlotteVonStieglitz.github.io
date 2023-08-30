@@ -1,0 +1,203 @@
+
+
+/* Header */
+
+/*Navigation bar*/
+#nav { /*Main section of navigation bar*/
+	background-color:#042434; /*Navigation Bar background colour*/
+	padding: 0;
+	font-family:monospace; /*font for the navigation bar*/
+	}
+
+		#nav:after { /*set under the main nav*/
+			content: '';
+			display: block;
+			width: 100%;
+			height: 0.75em;
+			background-color:#fab088; /*Colour of line under navigation bar*/
+		}
+
+		#nav > ul {
+			margin: 0;
+		}
+
+			#nav > ul > li {
+				position: relative;
+				display: inline-block;
+				margin-left: 1em;
+			}
+
+				#nav > ul > li a {
+					color: #fab088; /*colour of navigation text*/
+					text-decoration: none; /*effect on the navigation words*/
+					border: 0;
+					display: block;
+					padding: 1.5em 0.5em 1.35em 0.5em;
+					
+				}
+
+				#nav > ul > li:hover a {
+					color: #ffffff;/*Colour of navigation text when hovered over */
+				}
+
+					/*Small pointer on navigation bar*/
+					#nav > ul > li.current:before { 
+						-moz-transform: rotateZ(45deg);
+						-webkit-transform: rotateZ(45deg);
+						-ms-transform: rotateZ(45deg);
+						transform: rotateZ(45deg);
+						width: 0.75em;
+						height: 0.75em;
+						content: '';
+						display: block;
+						position: absolute;
+						bottom: -0.5em;
+						left: 50%;
+						margin-left: -0.375em;
+						background-color: #fab088;
+					}
+
+					#nav > ul > li.current a {
+						color: #f3ecff; /*colour of currently selected page*/
+					}
+
+/* Welcome Image/ banner */
+.welcome-image {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Sewing.jpg"); /*Has a gradient ontop of the image to make the text more readable */
+	  	height: 50%;
+  
+	/* Centering and Positionings to have the image to scale to fit all screen types */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  }
+
+  .welcome-image2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Timber.jpg"); /*Has a gradient ontop of the image to make the text more readable */
+	  height: 50%;
+
+	/* Centering and Positionings to have the image to scale to fit all screen types */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	}
+
+	.welcome-image3 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Drafting.jpg"); /*Has a gradient ontop of the image to make the text more readable */
+		  height: 50%;
+	
+		/* Centering and Positionings to have the image to scale to fit all screen types */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		}
+	
+	.welcome-image4 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Fabrics.jpeg"); /*Has a gradient ontop of the image to make the text more readable */
+			height: 50%;
+		
+		/* Centering and Positionings to have the image to scale to fit all screen types */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		}
+  
+  /* The text ontop of the image */
+  .welcome-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white; /*colour of the text*/
+  }
+
+/*background colour*/
+  body {
+    background-color:#ffffff;
+}
+  /*Image container formatting*/
+  .container {
+    width: 200px;
+    height: 200px;
+    overflow:hidden; /* Any overflow from the image gets hidden */
+	border-style: dotted;
+	border-color: #042434;
+	border-width: 2px;
+}
+
+.imageLeft, .imageCenter, .imageRight {
+    
+	width: 100%;
+    height: 100%;
+    object-fit:cover;
+	
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between; /*adds space between the elements*/
+    align-items: center; /*formats from the center*/
+}
+
+
+
+/*Text styles*/
+h2 {
+	text-align: center;
+	color:#042434
+}
+
+p {
+	text-align: left;
+	color:#042434;
+}
+
+
+
+
+
+
+
+/*Form formatting */
+.contactForm{
+	text-align: center;
+	background:#042434; /*Background of the contact me section*/
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+}
+
+.contactForm h1 {
+	font-size: 24px;
+	
+	
+}
+.contactForm p {
+	font-size: 12px;
+
+}
+.contactForm label {
+	font-size: 12px;
+	color:rgb(255, 255, 255);
+
+}
+
+/*submit button formatting */
+.contactForm input[type=submit]{
+	background-color: #4b16a7;
+	padding: 5px 10px;
+	border-radius: 10px; /* rounded courners of subbmit button */
+	border: #ffffff;
+	border-style: dotted;
+	border-width: 2px;
+	color: rgb(255, 255, 255);
+
+}
+.contactForm input[type="submit"]:hover { /*change colour when submit button is hovered over */
+    background-color: #6c2494;
+}
+
