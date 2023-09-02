@@ -7,6 +7,7 @@
 	background-color:#042434; /*Navigation Bar background colour*/
 	padding: 0;
 	font-family:monospace; /*font for the navigation bar*/
+	text-align: center;
 	}
 
 		#nav:after { /*set under the main nav*/
@@ -105,6 +106,17 @@
 		background-size: cover;
 		position: relative;
 		}
+
+	.welcome-image5 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Workshop.jpg"); /*Has a gradient ontop of the image to make the text more readable */
+			height: 50%;
+		
+		/* Centering and Positionings to have the image to scale to fit all screen types */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		}
   
   /* The text ontop of the image */
   .welcome-text {
@@ -128,6 +140,7 @@
 	border-style: dotted;
 	border-color: #042434;
 	border-width: 2px;
+	margin: 10px;
 }
 
 .imageLeft, .imageCenter, .imageRight {
@@ -144,7 +157,13 @@
     align-items: center; /*formats from the center*/
 }
 
-
+/*Singular Image formatting*/
+.centerImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+  }
 
 /*Text styles*/
 h2 {
@@ -156,12 +175,6 @@ p {
 	text-align: left;
 	color:#042434;
 }
-
-
-
-
-
-
 
 /*Form formatting */
 .contactForm{
@@ -186,10 +199,11 @@ p {
 
 }
 
+
 /*submit button formatting */
 .contactForm input[type=submit]{
 	background-color: #4b16a7;
-	padding: 5px 10px;
+	padding: 5px;
 	border-radius: 10px; /* rounded courners of subbmit button */
 	border: #ffffff;
 	border-style: dotted;
@@ -197,7 +211,64 @@ p {
 	color: rgb(255, 255, 255);
 
 }
+
+.contactForm textarea { /*formating for the message text box*/
+    padding: 5px;
+    color: rgb(0, 0, 0); /*black text*/
+}
+
 .contactForm input[type="submit"]:hover { /*change colour when submit button is hovered over */
     background-color: #6c2494;
 }
+
+
+/*Icons for the technology manditory section*/
+.headTech {
+    display:flex;
+	text-align: center; /*Centers the heading text*/
+	align-items: center;
+}
+
+img {
+    vertical-align: middle; /* image vertically allined in its container */
+    margin-right: 10px;
+}
+.textTech {
+    display: inline-block; /*ensures the image is inline with the headding*/
+	width:100%; /*uses up the entire width of the screen*/
+    
+}
+
+/*Regular button formatting*/
+.buttonContainer {
+    text-align: center;
+	padding: 20px;
+}
+#buttons{
+    background-color: 042434; /*Background colour*/
+    color: fab088; /*Text colour*/
+    margin: 10px;
+    padding:10px 20px;
+    border-radius: 30px;
+    border-color: fab088;
+    border-style:dashed;
+	
+}
+
+#buttons:hover { /*changes the colour of the button when it is hovered over*/
+    background-color: fab088;
+	border-color: 042434;
+    color: white;  /*Text colour*/
+}
+
+.videoContain{
+	text-align: center;
+	padding:10px /* adds some space around the video*/
+
+}
+
+#p1{
+	text-align: center
+}
+
 
