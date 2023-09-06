@@ -253,6 +253,7 @@ img {
 .buttonContainer {
     text-align: center;
 	padding: 4%;
+	position: absolute;
 }
 #buttons{
     background-color: 042434; /*Background colour*/
@@ -263,6 +264,8 @@ img {
     border-color: fab088;
     border-style:dashed;
 }
+
+
 
 #buttons:hover { /*changes the colour of the button when it is hovered over*/
     background-color: fab088;
