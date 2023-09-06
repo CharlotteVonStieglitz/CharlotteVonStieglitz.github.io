@@ -253,6 +253,7 @@ img {
 .buttonContainer {
     text-align: center;
 	padding: 4%;
+	text-size-adjust:auto;
 }
 #buttons{
     background-color: 042434; /*Background colour*/
