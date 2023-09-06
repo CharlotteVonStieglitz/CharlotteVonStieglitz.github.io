@@ -275,7 +275,9 @@ img {
 @media screen and (max-width:768px){
 	.buttonContainer
 	{
-		font-size: 10px;
+		padding: 1% 1%;
+		margin: 5px;
+		font-size: 8px;
 	}
 }
 
