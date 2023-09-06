@@ -61,7 +61,6 @@
 					#nav > ul > li.current a {
 						color: #f3ecff; /*colour of currently selected page*/
 					}
-
 /* Welcome Image/ banner */
 .welcome-image {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Sewing.jpg"); /*Has a gradient ontop of the image to make the text more readable */
@@ -253,7 +252,6 @@ img {
 .buttonContainer {
     text-align: center;
 	padding: 4%;
-	position: absolute;
 }
 #buttons{
     background-color: 042434; /*Background colour*/
@@ -264,7 +262,6 @@ img {
     border-color: fab088;
     border-style:dashed;
 }
-
 
 
 #buttons:hover { /*changes the colour of the button when it is hovered over*/
@@ -282,5 +279,13 @@ img {
 #p1{
 	text-align: center
 }
+/*Website scaling for screen sizes*/
 
+/*Mobile*/
+@media screen and (max-width: 736px) 
+{
+	.buttonContainer{
+		width: 100%;
+	}
 
+}
