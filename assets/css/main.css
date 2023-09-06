@@ -62,15 +62,6 @@
 						color: #f3ecff; /*colour of currently selected page*/
 					}
 
-/*Ajusting Navigation for different screens*/
-@media screen and (max-width:1024px){
-
-}
-
-@media screen and (max-width:768px){
-	
-}
-
 /* Welcome Image/ banner */
 .welcome-image {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Sewing.jpg"); /*Has a gradient ontop of the image to make the text more readable */
@@ -284,7 +275,6 @@ img {
 @media screen and (max-width:768px){
 	.buttonContainer
 	{
-		padding: 1% 1%;
 		font-size: 8px;
 	}
 }
