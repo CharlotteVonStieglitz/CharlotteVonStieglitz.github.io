@@ -17,6 +17,7 @@
 
 		#nav > ul {
 			margin: 0;
+
 			display: inline-block;
 			justify-content: center;
 
@@ -25,6 +26,7 @@
 			#nav > ul > li {
 				position: relative;
 				display: inline-block;
+				
 			}
 
 				#nav > ul > li a {
