@@ -288,6 +288,7 @@ img {
 	{
 		padding: 1% 1%;
 		margin: 5%;
-		width: auto;
+		width: 100%;
+		font-size: small;
 	}
 }
