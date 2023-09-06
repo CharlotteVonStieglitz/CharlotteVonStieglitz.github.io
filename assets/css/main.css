@@ -257,13 +257,11 @@ img {
 #buttons{
     background-color: 042434; /*Background colour*/
     color: fab088; /*Text colour*/
-    margin: 10px;
+    margin: auto;
     padding:2% 2%;
     border-radius: 30px;
     border-color: fab088;
     border-style:dashed;
-	text-size-adjust:auto;
-	
 }
 
 #buttons:hover { /*changes the colour of the button when it is hovered over*/
