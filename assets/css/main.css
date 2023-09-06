@@ -6,6 +6,7 @@
 	font-family:monospace; /*font for the navigation bar*/
 	text-align: center;
 	
+	
 	}
 
 		#nav:after { /*set under the main nav*/
@@ -290,5 +291,7 @@ img {
 		margin: 5%;
 		width: 100%;
 		font-size: small;
+		text-align: center;
+
 	}
 }
