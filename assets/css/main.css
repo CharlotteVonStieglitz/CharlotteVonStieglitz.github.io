@@ -117,6 +117,16 @@
 		background-size: cover;
 		position: relative;
 		}
+	.welcome-image6 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Fabrics2.jpeg"); /*Has a gradient ontop of the image to make the text more readable */
+			height: 50%;
+		
+		/* Centering and Positionings to have the image to scale to fit all screen types */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		}
   
   /* The text ontop of the image */
   .welcome-text {
