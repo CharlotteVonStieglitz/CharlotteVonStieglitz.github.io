@@ -16,7 +16,7 @@
 		}
 
 		#nav > ul {
-			margin: 0;
+			margin-top: 0;
 
 			display: inline-block;
 			justify-content: center;
@@ -287,6 +287,7 @@ img {
 	.buttonContainer
 	{
 		padding: 1% 1%;
-		margin: 5px;
+		margin: 5%;
+		font-size: 9px;
 	}
 }
