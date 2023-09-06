@@ -65,10 +65,10 @@
 
 /* Welcome Image/ banner */
 .welcome-image {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Sewing.jpg"); /*Has a gradient ontop of the image to make the text more readable */
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Sewing.jpg"); /*Has a gradient on top of the image to make the text more readable */
 	  	height: 50%;
   
-	/* Centering and Positionings to have the image to scale to fit all screen types */
+	/*centring and Positionings to have the image to scale to fit all screen types */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -76,10 +76,10 @@
   }
 
   .welcome-image2 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Timber.jpg"); /*Has a gradient ontop of the image to make the text more readable */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Timber.jpg"); /*Has a gradient on top of the image to make the text more readable */
 	  height: 50%;
 
-	/* Centering and Positionings to have the image to scale to fit all screen types */
+	/*Centring and Positionings to have the image to scale to fit all screen types */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -87,7 +87,7 @@
 	}
 
 	.welcome-image3 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Drafting.jpg"); /*Has a gradient ontop of the image to make the text more readable */
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Drafting.jpg"); /*Has a gradient on top of the image to make the text more readable */
 		  height: 50%;
 	
 		/* Centering and Positionings to have the image to scale to fit all screen types */
@@ -98,10 +98,10 @@
 		}
 	
 	.welcome-image4 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Fabrics.jpeg"); /*Has a gradient ontop of the image to make the text more readable */
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Fabrics.jpeg"); /*Has a gradient on top of the image to make the text more readable */
 			height: 50%;
 		
-		/* Centering and Positionings to have the image to scale to fit all screen types */
+		/*Centring and Positionings to have the image to scale to fit all screen types */
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -109,27 +109,27 @@
 		}
 
 	.welcome-image5 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Workshop.jpg"); /*Has a gradient ontop of the image to make the text more readable */
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Workshop.jpg"); /*Has a gradient on top of the image to make the text more readable */
 			height: 50%;
 		
-		/* Centering and Positionings to have the image to scale to fit all screen types */
+		/*Centring and Positionings to have the image to scale to fit all screen types */
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		position: relative;
 		}
 	.welcome-image6 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Fabrics2.jpeg"); /*Has a gradient ontop of the image to make the text more readable */
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Fabrics2.jpeg"); /*Has a gradient on top of the image to make the text more readable */
 			height: 50%;
 		
-		/* Centering and Positionings to have the image to scale to fit all screen types */
+		/*Centring and Positionings to have the image to scale to fit all screen types */
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		position: relative;
 		}
   
-  /* The text ontop of the image */
+  /* The text on top of the image */
   .welcome-text {
 	text-align: center;
 	position: absolute;
@@ -165,7 +165,7 @@
 .image-row {
     display: flex;
     justify-content: space-between; /*adds space between the elements*/
-    align-items: center; /*formats from the center*/
+    align-items: center; /*formats from the centre*/
 }
 
 /*Singular Image formatting*/
@@ -215,7 +215,7 @@ p {
 .contactForm input[type=submit]{
 	background-color: #4b16a7;
 	padding: 5px;
-	border-radius: 10px; /* rounded courners of subbmit button */
+	border-radius: 10px; /* rounded corners of submit button */
 	border: #ffffff;
 	border-style: dotted;
 	border-width: 2px;
@@ -223,7 +223,7 @@ p {
 
 }
 
-.contactForm textarea { /*formating for the message text box*/
+.contactForm textarea { /*formatting for the message text box*/
     padding: 5px;
     color: rgb(0, 0, 0); /*black text*/
 }
@@ -233,7 +233,7 @@ p {
 }
 
 
-/*Icons for the technology manditory section*/
+/*Icons for the technology mandatory section*/
 .headTech {
     display:flex;
 	text-align: center; /*Centers the heading text*/
@@ -241,11 +241,11 @@ p {
 }
 
 img {
-    vertical-align: middle; /* image vertically allined in its container */
+    vertical-align: middle; /* image vertically aligned in its container */
     margin-right: 10px;
 }
 .textTech {
-    display: inline-block; /*ensures the image is inline with the headding*/
+    display: inline-block; /*ensures the image is in line with the heading*/
 	width:100%; /*uses up the entire width of the screen*/
     
 }
@@ -282,12 +282,12 @@ img {
 	text-align: center
 }
 
-/*Website scaling for screen sizes*/
+/*Website scaling for mobile screen sizes*/
 @media screen and (max-width:768px){
 	.buttonContainer
 	{
 		padding: 1% 1%;
 		margin: 5%;
-		font-size: auto;
+		font-size: 8px; /* font automatically adjusts to the screen proportions*/
 	}
 }
