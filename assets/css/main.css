@@ -285,7 +285,7 @@ img {
 @media screen and (max-width: 736px) 
 {
 	.buttonContainer{
-		width: 100%;
+		margin:auto;
 	}
 
 }
