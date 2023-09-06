@@ -282,12 +282,12 @@ img {
 /*Ajusting regular buttons for different screens*/
 
 @media screen and (max-width:768px){
-	#buttonContainer
+	#buttons
 	{
-		padding: 1px;
+		padding: 1% 1%;
 		font-size: 8px;
 	}
-	}
+}
 
 .videoContain{
 	text-align: center;
