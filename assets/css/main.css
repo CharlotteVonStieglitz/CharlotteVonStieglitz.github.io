@@ -253,7 +253,6 @@ img {
 .buttonContainer {
     text-align: center;
 	padding: 4%;
-	text-size-adjust:auto;
 }
 #buttons{
     background-color: 042434; /*Background colour*/
@@ -263,6 +262,7 @@ img {
     border-radius: 30px;
     border-color: fab088;
     border-style:dashed;
+	text-size-adjust:auto;
 	
 }
 
